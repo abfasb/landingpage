@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(235, 240, 255);
+  scroll-behavior: smooth;
+  margin: 0;
+  overflow-y: none;
+  padding: 0;
+  height: 600vh;
+  width: 100%;
+}
+#main-homee {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+
+}
+.main-navigation {
+  width: 100%;
+}
+.navigation {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navigation a {
+  color: black;
+  z-index: 5;
+  padding: 15px;
+  padding-left: 20px;
+}
+a:hover {
+  color: gainsboro;
+  transition: 0.5s ease-in-out;
+}
+img{
+  position: absolute;
+  left: 0;
+  margin-left: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-us {
+  position: absolute;
+  right: 0;
+  opacity: 0.9;
+  margin-right: 30px;
+  background-color: rgb(83,128,234);
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.contact-us:hover {
+  opacity: 1;
+}
+
+#main-home {
+  background: url('images/Gradient.png') ;
+  height: 92vh;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cntr-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+}
+.cntr-content h1 {
+  font-size: 68px;
+  z-index: 1;
+  margin: 60px;
+  text-align-last: center;
+}
+.cntr-content p {
+  margin-left: 60px;
+  text-align-last: center;
+}
+.cntr-content span {
+  color: rgb(83,128,234);
+}
+.cntr-content img {
+  position: absolute;
+  margin-left: 280px;
+  margin-bottom: 100px;
+}
+.started {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 7px 18px;
+}
+.started:hover {
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+.bottom-home {
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.semi-bottom-home {
+    width: 1000px;
+    min-height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.semi-bottom-home .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align-last: center;
+}
+.heading .second {
+    width: 700px;
+    text-align-last: center;
+    text-align: center;
+}
+.second {
+  margin-bottom: 100px;
+}
+.second h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.second .web1, .second .web2 {
+  color: rgb(229,74,42);
+}
+.heading .h3 {
+  color: blue;
+}
+.semi-bottom-home p {
+  text-align: center;
+  padding: 10px;
+}
+
+.heading {
+  height: 220px;
+}
+.abc {
+  margin-bottom: 40px;
+  position: absolute;
+  left: 0;
+}
+.second-home {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border: 1px solid red;
+  background-color: #f8f9fa;
+}
+.second-home img {
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #212529;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.125rem;
+  color: #495057;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.second-img {
+  width: 300px;
+  height: 200px;
+}
